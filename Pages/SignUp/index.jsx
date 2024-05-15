@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import style from "./style.module.css";
 import { Link } from "react-router-dom";
 function SignUp() {
+
   const [userInput, setUserInput] = useState({
     name: "",
     phone: "",
@@ -79,7 +80,7 @@ function SignUp() {
                 placeholder="Password"
               />
             </div>
-            <button className={style.submitBtn} type="submit">
+            <button  className={style.submitBtn} type="submit">
               Submit
             </button>
           </form>

@@ -10,7 +10,7 @@ import {
 import "./App.css";
 import Layout from "../Layout";
 import Login from "../Pages/Login";
-import Home from "../Pages/Home";
+
 import SignUp from "../Pages/SignUp";
 
 export default function App() {
@@ -28,9 +28,7 @@ export default function App() {
         <Route
           path="/layout"
           element={
-            <Redirect>
-              <Layout />
-            </Redirect>
+              <Layout />         
           }
         ></Route>
       </>
